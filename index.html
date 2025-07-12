@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timezone Comparator | Vladimir Ascencio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="card">
+        <h2>Comparar la hora de El Salvador con otro pais</h2>
+        <label for="timezone">Selecciona un pais:</label>
+
+        <select id="timezone">
+            <option value="America/Mexico_City">Ciudad de Mexico</option>
+            <option value="America/New_York">Nueva York</option>
+            <option value="Europe/Madrid">Madrid</option>
+            <option value="Asia/Tokyo">Tokyo</option>
+            <option value="Europe/London">Londres</option>
+            <option value="America/Argentina/Buenos_Aires">Buenos Aires</option>
+        </select>
+
+        <button onclick="iniciarComparacion()">Comparar la Hora</button>
+
+        <div id="resultado" style="margin-top: 1rem; font-size: 1.2rem;"></div>
+
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
